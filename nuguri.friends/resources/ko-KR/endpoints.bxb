@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (PlusOperation) {
+      accepted-inputs (leftOperand,rightOperand)
+      local-endpoint (plusOperation.js)
+    }
+  }
+}
